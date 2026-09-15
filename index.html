@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WLX3N875');</script>
+<!-- End Google Tag Manager -->
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SEEFA by Alef — Al Khan, Sharjah | Novera Real Estate</title>
+<style>
+
+@font-face { font-family:'Garamond'; src:url(assets/fonts/EBGaramond-Regular.woff2) format('woff2'); font-weight:400; font-style:normal; }
+@font-face { font-family:'Garamond'; src:url(assets/fonts/EBGaramond-Italic.woff2) format('woff2'); font-weight:400; font-style:italic; }
+@font-face { font-family:'Garamond'; src:url(assets/fonts/EBGaramond-Bold.woff2) format('woff2'); font-weight:700; font-style:normal; }
+@font-face { font-family:'Sans'; src:url(assets/fonts/Montserrat-Regular.woff2) format('woff2'); font-weight:400; }
+@font-face { font-family:'Sans'; src:url(assets/fonts/Montserrat-Medium.woff2) format('woff2'); font-weight:500; }
+@font-face { font-family:'Sans'; src:url(assets/fonts/Montserrat-SemiBold.woff2) format('woff2'); font-weight:600; }
+
+:root {
+  --ink: #0E1A22;
+  --ink-soft: #16262F;
+  --sand: #EDE6D8;
+  --sand-2: #E2D8C4;
+  --sea: #2E6E76;
+  --sea-deep: #204F55;
+  --coral: #C97B5A;
+  --gold: #B79A6B;
+  --charcoal: #21262A;
+  --line: rgba(33,38,42,0.14);
+  --max: 1180px;
+}
+
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body {
+  margin:0;
+  font-family:'Sans', sans-serif;
+  background: var(--sand);
+  color: var(--charcoal);
+  -webkit-font-smoothing: antialiased;
+  line-height:1.6;
+}
+img { display:block; max-width:100%; }
+a { color:inherit; text-decoration:none; }
+.wrap { max-width: var(--max); margin:0 auto; padding:0 32px; }
+h1,h2,h3 { font-family:'Garamond', serif; font-weight:400; margin:0; }
+.eyebrow {
+  font-family:'Sans', sans-serif; font-size:13px; font-weight:600;
+  letter-spacing:0.14em; color: var(--sea-deep);
+}
+.eyebrow.on-dark { color: var(--gold); }
+
+/* Art Deco arch motif — used sparingly as the signature element */
+.arch-top { border-radius: 200px 200px 0 0; }
+
+/* ---------- NAV ---------- */
+.nav { position: sticky; top:0; z-index:50; background: var(--ink); border-bottom: 1px solid rgba(183,154,107,0.3); }
+.nav .wrap { display:flex; align-items:center; justify-content:space-between; height:78px; }
+.nav img.logo { height:36px; }
+.nav .cta { background: var(--coral); color:#fff; font-family:'Sans'; font-weight:600; font-size:14px; padding:11px 22px; border-radius:3px; white-space:nowrap; }
+
+/* ---------- HERO ---------- */
+.hero { position:relative; min-height: 92vh; display:flex; align-items:flex-end; background:#000; }
+.hero img { position:absolute; inset:0; width:100%; height:100%; object-fit:cover; object-position: center 55%; opacity:0.94; }
+.hero::after { content:''; position:absolute; inset:0; background: linear-gradient(180deg, rgba(14,26,34,0.5) 0%, rgba(14,26,34,0.1) 35%, rgba(14,26,34,0.92) 100%); }
+.hero-content { position:relative; z-index:2; color: var(--sand); padding: 80px 0 64px; width:100%; }
+.hero h1 { font-size: clamp(38px, 5.6vw, 70px); line-height:1.08; max-width: 760px; color: #fff; }
+.hero .sub { font-size:18px; max-width:540px; margin-top:22px; color: var(--sand-2); font-weight:300; }
+.hero .row { margin-top:38px; display:flex; align-items:center; gap:28px; flex-wrap:wrap; }
+.btn-primary { background: var(--coral); color:#fff; font-family:'Sans'; font-weight:600; font-size:15px; padding:16px 34px; border-radius:3px; border:none; cursor:pointer; display:inline-block; }
+.btn-ghost { border:1px solid rgba(237,230,216,0.5); color: var(--sand); font-family:'Sans'; font-weight:500; font-size:14px; padding:15px 28px; border-radius:3px; }
+.hero .note { font-size:13px; color: var(--gold); font-weight:500; margin-top:26px; }
+
+/* ---------- LEDGER STRIP ---------- */
+.ledger { background: var(--ink); border-top:1px solid rgba(183,154,107,0.22); border-bottom:1px solid rgba(183,154,107,0.22); color: var(--sand-2); padding:22px 0; }
+.ledger .wrap { display:flex; flex-wrap:wrap; gap:10px 40px; justify-content:center; font-family:'Garamond'; font-size:17px; }
+.ledger .wrap span b { color:#fff; font-weight:700; }
+.ledger .wrap span { opacity:0.88; }
+
+/* ---------- SECTIONS ---------- */
+section { padding:100px 0; }
+.section-head { max-width:640px; margin-bottom:56px; }
+.section-head h2 { font-size: clamp(30px, 3.6vw, 44px); margin-top:10px; color: var(--charcoal); }
+.section-head p { margin-top:18px; font-size:16.5px; color:#4a4640; max-width:56ch; }
+.on-dark { background: var(--ink); color: var(--sand); }
+.on-dark .section-head p { color: var(--sand-2); }
+.on-dark h2 { color:#fff; }
+
+/* ---------- ABOUT ---------- */
+.about-figure { position:relative; overflow:hidden; }
+.about-figure img { width:100%; }
+.about-caption { display:flex; justify-content:space-between; align-items:baseline; margin-top:18px; font-family:'Garamond'; font-style:italic; color:#6b665a; font-size:15px; border-top:1px solid var(--line); padding-top:14px; }
+
+/* ---------- RESIDENCES ---------- */
+.residence-grid { display:grid; grid-template-columns: 1.15fr 0.85fr; gap:2px; background: var(--line); }
+.residence-grid > div { background: var(--sand); }
+.residence-photo { position:relative; min-height:460px; }
+.residence-photo img { position:absolute; inset:0; width:100%; height:100%; object-fit:cover; }
+.residence-panel { padding:56px 48px; display:flex; flex-direction:column; justify-content:center; }
+.unit-row { display:flex; justify-content:space-between; align-items:baseline; padding:18px 0; border-top:1px solid var(--line); font-family:'Garamond'; font-size:19px; }
+.unit-row:last-child { border-bottom:1px solid var(--line); }
+.unit-row .from { font-size:13px; color:#8a8578; font-family:'Sans'; letter-spacing:0.04em; }
+.unit-row .price { color: var(--sea-deep); font-weight:700; }
+
+/* ---------- LIFESTYLE GALLERY ---------- */
+.gallery { display:grid; grid-template-columns: repeat(3, 1fr); gap:3px; }
+.gallery figure { margin:0; position:relative; overflow:hidden; aspect-ratio: 4/5; }
+.gallery figure:nth-child(1) { grid-column: span 2; aspect-ratio: 16/10; }
+.gallery img { width:100%; height:100%; object-fit:cover; }
+.gallery figcaption { position:absolute; left:0; right:0; bottom:0; padding:20px 22px; background: linear-gradient(0deg, rgba(14,26,34,0.85), transparent 70%); color:#fff; font-family:'Garamond'; font-size:17px; }
+.gallery figcaption span { display:block; font-family:'Sans'; font-size:11px; letter-spacing:0.1em; color: var(--gold); margin-bottom:4px; }
+
+/* ---------- WHY INVEST ---------- */
+.why-now { display:grid; grid-template-columns: repeat(3, 1fr); gap:2px; background: rgba(237,230,216,0.12); }
+.why-card { background: var(--ink); padding:40px 34px; }
+.why-card .num { font-family:'Garamond'; font-size:32px; color: var(--gold); line-height:1; }
+.why-card h4 { font-family:'Garamond'; font-size:20px; margin:14px 0 10px; color:#fff; }
+.why-card p { font-size:14px; color: var(--sand-2); margin:0; }
+.why-note { font-size:12px; color:#8a9199; margin-top:28px; max-width:70ch; }
+
+/* ---------- LOCATION ---------- */
+.loc-list { display:grid; grid-template-columns: 1fr 1fr; gap:0 48px; }
+.loc-row { display:flex; justify-content:space-between; padding:14px 0; border-top:1px solid var(--line); font-family:'Garamond'; font-size:18px; }
+.loc-row .time { color: var(--sea-deep); font-weight:700; font-family:'Sans'; font-size:14px; }
+
+/* ---------- ENQUIRY FORM ---------- */
+.enquiry { background: var(--sand-2); }
+.enquiry-grid { display:grid; grid-template-columns: 1fr 1fr; gap:64px; align-items:start; }
+.enquiry form { display:grid; gap:16px; }
+.enquiry label { font-size:12.5px; letter-spacing:0.06em; color:#6b665a; display:block; margin-bottom:6px; }
+.enquiry input, .enquiry select { width:100%; padding:14px 16px; border:1px solid rgba(33,38,42,0.26); background:#fff; font-family:'Sans'; font-size:15px; color:var(--charcoal); border-radius:2px; }
+.enquiry input:focus, .enquiry select:focus { outline:2px solid var(--sea); outline-offset:1px; }
+.enquiry .row2 { display:grid; grid-template-columns:1fr 1fr; gap:16px; }
+.enquiry button { margin-top:6px; background: var(--sea-deep); color:#fff; border:none; font-family:'Sans'; font-weight:600; font-size:15px; padding:16px 24px; border-radius:2px; cursor:pointer; }
+.enquiry button:hover { background: #17393d; }
+.enquiry .note { font-size:12.5px; color:#8a8578; margin-top:4px; }
+.enquiry .side blockquote { font-family:'Garamond'; font-size:22px; line-height:1.5; color:var(--charcoal); margin:0; }
+.enquiry .side cite { display:block; margin-top:14px; font-style:normal; font-size:13px; color:#6b665a; }
+
+/* ---------- FINAL CTA ---------- */
+.final-cta { position:relative; padding:0; overflow:hidden; }
+.final-cta img { width:100%; height:520px; object-fit:cover; }
+.final-cta::after { content:''; position:absolute; inset:0; background: linear-gradient(180deg, rgba(14,26,34,0.5), rgba(14,26,34,0.94)); }
+.final-cta-content { position:absolute; inset:0; z-index:2; display:flex; flex-direction:column; align-items:center; justify-content:center; text-align:center; color:#fff; padding:0 24px; }
+.final-cta-content h2 { color:#fff; font-size: clamp(30px,4vw,48px); max-width:700px; }
+.final-cta-content p { color: var(--sand-2); margin-top:16px; font-size:16px; }
+.final-cta-content .row { margin-top:34px; display:flex; gap:18px; flex-wrap:wrap; justify-content:center; }
+.final-cta-content .contact-line { margin-top:26px; font-size:14px; color: var(--gold); }
+
+/* ---------- FOOTER ---------- */
+footer { background: var(--ink); color: var(--sand-2); padding:56px 0 34px; }
+footer .wrap { display:flex; flex-direction:column; align-items:center; text-align:center; gap:16px; }
+footer img.flogo { height:56px; }
+footer .devby { display:flex; align-items:center; gap:10px; font-size:12px; letter-spacing:0.08em; color:#8f9299; }
+footer .devby img { height:22px; }
+footer .legal { font-size:11.5px; color:#6b6f75; max-width:660px; margin-top:14px; }
+footer .credit { font-size:11px; color:#565a60; margin-top:22px; }
+
+@media (max-width: 860px) {
+  .residence-grid { grid-template-columns:1fr; }
+  .residence-photo { min-height:320px; }
+  .why-now { grid-template-columns:1fr; }
+  .loc-list { grid-template-columns:1fr; }
+  .gallery { grid-template-columns: 1fr 1fr; }
+  .gallery figure:nth-child(1) { grid-column: span 2; }
+  .enquiry-grid { grid-template-columns:1fr; gap:36px; }
+  .enquiry .row2 { grid-template-columns:1fr; }
+  section { padding:64px 0; }
+}
+</style>
+</head>
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WLX3N875"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+<nav class="nav">
+  <div class="wrap">
+    <img class="logo" src="assets/img/novera-logo.png" alt="Novera Real Estate">
+    <a class="cta" href="#enquire">Register Your Interest</a>
+  </div>
+</nav>
+
+<header class="hero">
+  <img src="assets/img/hero_aerial.jpg" alt="SEEFA by Alef aerial view, Al Khan peninsula">
+  <div class="hero-content">
+    <div class="wrap">
+      <span class="eyebrow on-dark">SEEFA BY ALEF &nbsp;·&nbsp; AL KHAN, SHARJAH</span>
+      <h1 style="margin-top:14px;">The address where<br>the sea surrounds you.</h1>
+      <p class="sub">Five waterfront residences on a private 3-hectare peninsula in Al Khan, Sharjah — panoramic sea views on three sides, from AED 950,000.</p>
+      <div class="row">
+        <a class="btn-primary" href="#enquire">Register Your Interest</a>
+        <a class="btn-ghost" href="#residences">View Residences</a>
+      </div>
+      <p class="note">Limited beachfront inventory — early access through Novera Real Estate.</p>
+    </div>
+  </div>
+</header>
+
+<div class="ledger">
+  <div class="wrap">
+    <span><b>862</b> homes</span>
+    <span><b>5</b> buildings</span>
+    <span><b>3-hectare</b> beachfront</span>
+    <span><b>From AED 950K</b></span>
+    <span><b>15 min</b> to Dubai</span>
+  </div>
+</div>
+
+<section id="about">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="eyebrow">THE COMMUNITY</span>
+      <h2>A peninsula, not just a postcode.</h2>
+      <p>Set across a 3-hectare beachfront site on Al Khan / Maryam Island, SEEFA is arranged as five contemporary residential buildings around a landscaped podium — designed with a Neo-Art Deco sensibility that softens the coastline's contemporary architecture. Every building connects directly to the beachfront and a shared public promenade, so the sea is never a drive away.</p>
+    </div>
+    <figure class="about-figure">
+      <img src="assets/img/courtyard_pool.jpg" alt="SEEFA by Alef landscaped courtyard between towers">
+    </figure>
+    <div class="about-caption">
+      <span>SEEFA by Alef — landscaped podium &amp; residential courtyard</span>
+      <span>Al Khan, Sharjah</span>
+    </div>
+  </div>
+</section>
+
+<section id="residences" class="on-dark">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="eyebrow on-dark">RESIDENCES</span>
+      <h2>Five buildings. One shoreline.</h2>
+      <p>From one-bedroom residences to sweeping penthouses — every home designed around sea views, with resort-inspired amenities shared across all five buildings.</p>
+    </div>
+  </div>
+  <div class="residence-grid">
+    <div class="residence-photo"><img src="assets/img/interior_dining.jpg" alt="SEEFA by Alef sea-view dining interior"></div>
+    <div class="residence-panel">
+      <div class="unit-row"><span>1 Bedroom<br><span class="from">688 sq. ft.</span></span><span class="price">from AED 950K</span></div>
+      <div class="unit-row"><span>2 Bedroom<br><span class="from">904 sq. ft.</span></span><span class="price">on request</span></div>
+      <div class="unit-row"><span>3 Bedroom<br><span class="from">1,657 sq. ft.</span></span><span class="price">on request</span></div>
+      <div class="unit-row"><span>Penthouse<br><span class="from">1,991 sq. ft., sweeping terraces</span></span><span class="price">on request</span></div>
+    </div>
+  </div>
+</section>
+
+<section id="lifestyle">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="eyebrow">LIFESTYLE</span>
+      <h2>Life arranged around the water.</h2>
+      <p>A vibrant waterfront promenade, resort-style pools, and a coastal dining scene — all within the development, not a drive from it.</p>
+    </div>
+  </div>
+  <div class="gallery">
+    <figure><img src="assets/img/beachfront_promenade.jpg" alt="SEEFA by Alef beachfront dining promenade at sunset"><figcaption><span>WATERFRONT PROMENADE</span>Dining &amp; retail along the shoreline</figcaption></figure>
+    <figure><img src="assets/img/interior_dining.jpg" alt="Sea-view dining interior"><figcaption><span>INTERIORS</span>Sea-view living, every residence</figcaption></figure>
+    <figure><img src="assets/img/courtyard_pool.jpg" alt="Landscaped courtyard and pool"><figcaption><span>RESORT-STYLE PODIUM</span>Pools &amp; landscaped gardens</figcaption></figure>
+  </div>
+</section>
+
+<section id="why-invest" class="on-dark">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="eyebrow on-dark">WHY INVEST</span>
+      <h2>Built for the numbers to work, too.</h2>
+    </div>
+  </div>
+  <div class="why-now">
+    <div class="why-card"><div class="num">100%</div><h4>Freehold Ownership</h4><p>For all nationalities, under Sharjah Law No. 2 of 2022.</p></div>
+    <div class="why-card"><div class="num">10-Yr</div><h4>Golden Visa Eligible</h4><p>UAE Golden Visa for qualifying property purchases.*</p></div>
+    <div class="why-card"><div class="num">30/70</div><h4>Payment Plan</h4><p>10% on booking, 20% during construction, 70% on handover.*</p></div>
+    <div class="why-card"><div class="num">7.5–8.8%</div><h4>Projected Yield</h4><p>Indicative rental yield range for the development.*</p></div>
+    <div class="why-card"><div class="num">AED 750M</div><h4>Infrastructure Investment</h4><p>Sharjah's road &amp; tunnel programme improving Dubai connectivity.</p></div>
+    <div class="why-card"><div class="num">AED 1.3B</div><h4>Al Khan, H1 2026</h4><p>1,077 transactions recorded — among Sharjah's most active submarkets.</p></div>
+  </div>
+  <div class="wrap"><p class="why-note">*Payment plan, yield and Golden Visa figures are indicative and subject to developer confirmation at the time of booking. Delivered by Alef Group — the developer behind Al Mamsha and Hayyan.</p></div>
+</section>
+
+<section id="location">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="eyebrow">LOCATION</span>
+      <h2>Everywhere you need, minutes away.</h2>
+    </div>
+    <div class="loc-list">
+      <div class="loc-row"><span>Al Khan Beach / Park / Lagoon</span><span class="time">2–5 min</span></div>
+      <div class="loc-row"><span>Al Qasba Canal</span><span class="time">5–8 min</span></div>
+      <div class="loc-row"><span>Sharjah Aquarium / Maritime Museum</span><span class="time">5–8 min</span></div>
+      <div class="loc-row"><span>Victoria International School</span><span class="time">5–7 min</span></div>
+      <div class="loc-row"><span>Oriana Hospital</span><span class="time">5–10 min</span></div>
+      <div class="loc-row"><span>City Centre Sharjah / Sahara Centre</span><span class="time">8–12 min</span></div>
+      <div class="loc-row"><span>Mega Mall</span><span class="time">10–15 min</span></div>
+      <div class="loc-row"><span>Dubai International Airport</span><span class="time">15–25 min</span></div>
+      <div class="loc-row"><span>Sharjah International Airport</span><span class="time">22–25 min</span></div>
+      <div class="loc-row"><span>Burj Khalifa / Dubai Mall</span><span class="time">20–30 min</span></div>
+    </div>
+  </div>
+</section>
+
+<section id="enquire" class="enquiry">
+  <div class="wrap enquiry-grid">
+    <div>
+      <span class="eyebrow">ENQUIRE NOW</span>
+      <h2 style="margin-top:10px; font-size:34px;">Request your priority callback.</h2>
+      <p style="margin-top:14px; font-size:15.5px; color:#5a5648;">Leave your details and a Novera advisor will contact you directly — or message us on WhatsApp for an immediate response.</p>
+      <form id="enquiry-form" style="margin-top:28px;">
+        <div>
+          <label for="f-name">Full name</label>
+          <input id="f-name" name="name" type="text" required placeholder="Your full name">
+        </div>
+        <div class="row2">
+          <div>
+            <label for="f-phone">Phone / WhatsApp</label>
+            <input id="f-phone" name="phone" type="tel" required placeholder="+971 5X XXX XXXX">
+          </div>
+          <div>
+            <label for="f-email">Email</label>
+            <input id="f-email" name="email" type="email" placeholder="you@email.com">
+          </div>
+        </div>
+        <div>
+          <label for="f-unit">Interested in</label>
+          <select id="f-unit" name="unit">
+            <option>1 Bedroom</option>
+            <option>2 Bedroom</option>
+            <option>3 Bedroom</option>
+            <option>Penthouse</option>
+            <option>Not sure yet</option>
+          </select>
+        </div>
+        <button type="submit">Request Callback</button>
+        <p class="note">Submitting sends your details to a Novera advisor via WhatsApp.</p>
+      </form>
+    </div>
+    <div class="side">
+      <blockquote>"A rare beachfront location with contemporary architecture, landscaped gardens, resort-inspired amenities, and a distinctive coastal lifestyle."</blockquote>
+      <cite>SEEFA by Alef, project overview</cite>
+    </div>
+  </div>
+</section>
+
+<div class="final-cta">
+  <img src="assets/img/beachfront_promenade.jpg" alt="SEEFA by Alef waterfront promenade">
+  <div class="final-cta-content">
+    <span class="eyebrow on-dark">NOVERA REAL ESTATE</span>
+    <h2>Secure your place on the peninsula.</h2>
+    <p>Priority access to SEEFA by Alef, direct from your local broker.</p>
+    <div class="row">
+      <a class="btn-primary" href="#enquire">Chat on WhatsApp</a>
+      <a class="btn-ghost" href="tel:+971585424430">Call +971 58 542 4430</a>
+    </div>
+    <div class="contact-line">noverarealty.ae</div>
+  </div>
+</div>
+
+<footer>
+  <div class="wrap">
+    <img class="flogo" src="assets/img/novera-logo.png" alt="Novera Real Estate">
+    <div class="devby">A DEVELOPMENT BY <img src="assets/img/alef-wordmark.png" alt="Alef Group"></div>
+    <p class="legal">Renders and imagery are for illustrative purposes only. Prices, availability, payment plans and yield figures are indicative and subject to Alef Group's final confirmation and may change without notice. Novera Real Estate acts as an authorised broker for this development.</p>
+    <div class="credit">© Novera Real Estate — Sharjah · Dubai · Ajman</div>
+  </div>
+</footer>
+
+<script>
+document.getElementById('enquiry-form').addEventListener('submit', function(e) {
+  e.preventDefault();
+  var name = document.getElementById('f-name').value.trim();
+  var phone = document.getElementById('f-phone').value.trim();
+  var email = document.getElementById('f-email').value.trim();
+  var unit = document.getElementById('f-unit').value;
+  var msg = "Hi Novera, I'd like to register my interest in SEEFA by Alef.%0A%0A" +
+            "Name: " + encodeURIComponent(name) + "%0A" +
+            "Phone: " + encodeURIComponent(phone) + "%0A" +
+            (email ? "Email: " + encodeURIComponent(email) + "%0A" : "") +
+            "Interested in: " + encodeURIComponent(unit);
+  window.open("https://wa.me/971585424430?text=" + msg, "_blank");
+});
+</script>
+
+</body>
+</html>
